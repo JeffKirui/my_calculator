@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: olivedrab;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  color: #955;
+}
+
+input {
+  width: 100%;
+  height: 75px;
+  font-size: 20px;
+}
